@@ -89,3 +89,17 @@ const displayPicture = (numImage) =>{
 
 // Afficher l'image par défaut
 displayPicture(defaultImage)
+
+
+// Sélectionner tous les points et ajouter un eventListener pour chaque point
+const bullets = document.querySelectorAll('.dot');
+bullets.forEach((bullet, index) => {
+	bullet.addEventListener('click', () => {
+
+		// mettre à jour l'indice de l'image par défaut
+		defaultImage = index; 
+
+		// afficher l'image correspondante
+		displayPicture(defaultImage); 
+	});
+});
