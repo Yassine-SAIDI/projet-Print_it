@@ -24,4 +24,4 @@ Ce projet est une page vitrine one-page développée dans le cadre de ma formati
 
 ## 🔗 Démo en ligne
 
-👉 [Voir le site](https://yassine-saidi.github.io/projet-Print_it-Yassine/)
+👉 [Voir le site](https://yassine-saidi.github.io/projet-Print_it/)
